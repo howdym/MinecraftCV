@@ -68,8 +68,8 @@ def parse_list(elot):
     return lot
 
 
-def write_results(lolot):
-    f = open("result.txt", "w+")
+def write_results(lolot, name):
+    f = open(name, "w+")
     for groups in lolot:
         writing = "["
         for its in groups:
