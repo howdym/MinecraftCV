@@ -66,3 +66,14 @@ def parse_list(elot):
             focus = entry - 1
             continue
     return lot
+
+
+def write_results(lolot):
+    f = open("result.txt", "w+")
+    for groups in lolot:
+        writing = "["
+        for its in groups:
+            writing = writing + str(its) + ", "
+        writing = writing[0:len(writing) - 2] + "]"
+        f.write(writing)
+    f.close()

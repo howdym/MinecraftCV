@@ -8,4 +8,4 @@ times = [0, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.5, 4, 4.25, 4.5, 4.75, 
 temp_times = []
 
 result = analyze.parse_list(times)
-print(result)
+analyze.write_results(result)

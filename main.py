@@ -18,4 +18,5 @@ for time in times:
     if image_processing.check_folder(imgdir):
         image_processing.clear_folder(imgdir)
 
-analyze.parse_list(times)
+result = analyze.parse_list(times)
+analyze.write_results(result)
