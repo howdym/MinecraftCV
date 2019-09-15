@@ -12,16 +12,18 @@ His code can be found in the "analyze.py" file.
 This is a script that looks through a video and detects when a player uses MakeCode in Minecraft. It returns the timestamps of which a player uses MakeCode or the Inventory. 
 
 # Features 
-image_processing.py: contains all the functions related to processing an image out of a video </br>
-mass_processing.py: automates the running of this script on every set of data stored in our lab computer </br>
-video_processing.py: looks through a video and detects when a player uses MakeCode in Minecraft </br>
-frames: folder that holds the images that are processed in the process of checking the video </br>
-target.png: containing an image of the MakeCode page, which is used for feature detection </br>
-testing.py: script that helps with testing the code </br>
-testing: folder holding test images used </br>
+**image_processing.py:** contains all the functions related to processing an image out of a video </br>
+**mass_processing.py:** automates the running of this script on every set of data stored in our lab computer </br>
+**video_processing.py:** looks through a video and detects when a player uses MakeCode in Minecraft </br>
+**frames:** folder that holds the images that are processed in the process of checking the video </br>
+**target.png:** containing an image of the MakeCode page, which is used for feature detection </br>
+**testing.py:** script that helps with testing the code </br>
+**testing:** folder holding test images used </br>
 
 # Future iterations 
 Will include feature where script detects when a player uses the Inventory or Chest in Minecraft.
+
+#
 
 Copyright (C) 2000-2019, Intel Corporation, all rights reserved. </br>
 Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved. </br>
