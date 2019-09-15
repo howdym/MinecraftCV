@@ -19,8 +19,10 @@ def process_video(mov, name):
         if image_processing.check_folder(imgdir):
             image_processing.clear_folder(imgdir)
 
-    for time in times:
-        image_processing.extract_frames(movie, time, imgdir)
+    times = temp_times
+
+    # for time in times:
+    #     image_processing.extract_frames(movie, time, imgdir)
 
     result = analyze.parse_list(times)
     analyze.write_results(result, name)
