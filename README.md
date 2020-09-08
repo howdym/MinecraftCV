@@ -18,6 +18,14 @@ This is a script that looks through a video and detects when a player uses MakeC
 **target images:** folder containing an images of the MakeCode and Portfolio page, which is used for feature detection </br>
 **test.py:** script that helps with testing the code </br>
 **util.py:** helper functions that uses template matching to see if the frame has MakeCode or Portfolio in it </br>
+**requirements.txt:** includes all the required libraries </br> 
+
+# Setup 
+Run pip install -r requirements.txt to get the libraries you need if you already don't have them
+
+# Use 
+1. Use mass_processing.py if the target videos are in the same directory as MinecraftCV 
+2. Use the process_video function in video_pressing.py. You need the path for the target video and what you are looking for 
 
 # Future iterations 
 Will include feature where script detects when a player uses the Inventory or Chest in Minecraft.
