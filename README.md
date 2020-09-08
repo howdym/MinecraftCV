@@ -1,24 +1,23 @@
 # MinecraftCV
 
-# IMPORTANT: The main feature of this code, which is using computer vision for feature detection, IS NOT WRITTEN BY ME. 
+# IMPORTANT: The main feature of this code, which is using computer vision (template matching) for feature detection, IS NOT WRITTEN BY ME. 
 
 # SOURCE: NOT MEANT FOR PROMOTION OR ENDORSEMENT, BUT JUST TO CITE THE SOURCE CODE: 
 https://github.com/abidrahmank/OpenCV2-Python-Tutorials/blob/master/source/py_tutorials/py_feature2d/py_orb/py_orb.rst </br>
 https://github.com/abidrahmank/OpenCV2-Python-Tutorials/blob/master/source/py_tutorials/py_feature2d/py_matcher/py_matcher.rst
 
-His code can be found in the "analyze.py" file. 
+The computer vision code is only used in the "util.py" file. 
 
 # Purpose
-This is a script that looks through a video and detects when a player uses MakeCode in Minecraft. It returns the timestamps of which a player uses MakeCode or the Inventory. 
+This is a script that looks through a video and detects when a player uses MakeCode or Portfolio in Minecraft. It returns the timestamps of which a player uses MakeCode or the Portfolio. 
 
 # Features 
 **image_processing.py:** contains all the functions related to processing an image out of a video </br>
 **mass_processing.py:** automates the running of this script on every set of data stored in our lab computer </br>
 **video_processing.py:** looks through a video and detects when a player uses MakeCode in Minecraft </br>
-**frames:** folder that holds the images that are processed in the process of checking the video </br>
-**target.png:** containing an image of the MakeCode page, which is used for feature detection </br>
-**testing.py:** script that helps with testing the code </br>
-**testing:** folder holding test images used </br>
+**target images:** folder containing an images of the MakeCode and Portfolio page, which is used for feature detection </br>
+**test.py:** script that helps with testing the code </br>
+**util.py:** helper functions that uses template matching to see if the frame has MakeCode or Portfolio in it </br>
 
 # Future iterations 
 Will include feature where script detects when a player uses the Inventory or Chest in Minecraft.
